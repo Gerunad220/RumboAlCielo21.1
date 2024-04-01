@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Reflection;
 using System.Text.RegularExpressions;
 using UnityEngine;
@@ -30,6 +31,16 @@ public class BarraCombustible : MonoBehaviour
             currentFillAmount = Mathf.Clamp01(currentFillAmount);
 
             fillImage.fillAmount = currentFillAmount;
+
+            if(currentFillAmount >= 1f)
+            {
+                ShowNextPrompt();            
+            }
         }        
+    }
+
+    void ShowNextPrompt()
+    {
+        UnityEngine.Debug.Log("Siguiente");
     }
 }
