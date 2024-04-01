@@ -1,10 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Reflection;
-using System.Text.RegularExpressions;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BarraCombustible : MonoBehaviour
 {
@@ -42,5 +40,6 @@ public class BarraCombustible : MonoBehaviour
     void ShowNextPrompt()
     {
         UnityEngine.Debug.Log("Siguiente");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
