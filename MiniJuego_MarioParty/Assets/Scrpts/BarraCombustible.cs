@@ -13,6 +13,8 @@ public class BarraCombustible : MonoBehaviour
 
     private float currentFillAmount = 0f;
 
+     public int counter;
+
 
     void Start()
     {
@@ -37,9 +39,21 @@ public class BarraCombustible : MonoBehaviour
         }        
     }
 
+    public void ButtonPressed()
+    {
+        counter = counter + 1;
+
+    }
+
     void ShowNextPrompt()
     {
         UnityEngine.Debug.Log("Siguiente");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+        UnityEngine.Debug.Log("Botón presionado" + counter);
     }
+
+    
+
+    
 }

@@ -10,11 +10,14 @@ public class RocketMana : MonoBehaviour
     public float victoryHeight = 50f;
     private bool launched = false;
 
+    public BarraCombustible cohete1;
 
     void Start()
     {
         
         Invoke("Launch", delayBeforeLaunch);
+
+        
     }
 
     
