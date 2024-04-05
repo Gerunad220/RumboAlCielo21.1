@@ -265,7 +265,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delayBeforeLaunch: 3
   victoryHeight: 50
-  cohete1: {fileID: 0}
 --- !u!54 &180500077
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1488,7 +1487,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delayBeforeLaunch: 3
   victoryHeight: 50
-  cohete1: {fileID: 7215516042528853175, guid: 8e305162386bcc8469a8ddd9537df146, type: 3}
 --- !u!1 &1457695704
 GameObject:
   m_ObjectHideFlags: 0
@@ -1631,7 +1629,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delayBeforeLaunch: 3
   victoryHeight: 50
-  cohete1: {fileID: 0}
 --- !u!54 &1474108072
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1780,7 +1777,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delayBeforeLaunch: 3
   victoryHeight: 50
-  cohete1: {fileID: 0}
 --- !u!54 &1586160116
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -15,16 +15,17 @@ public class RocketMana : MonoBehaviour
     public float victoryHeight;
     private bool launched = false;
 
+<<<<<<< HEAD
     
 
     
+=======
+>>>>>>> parent of c234a58 (Cambios en el boton)
 
     void Start()
     {
         
         Invoke("Launch", delayBeforeLaunch);
-
-        
     }
 
     
