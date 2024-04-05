@@ -11,7 +11,7 @@ public class BarraCombustible : MonoBehaviour
     public float fillSpeed = 0.1f;
     public Button fillButton;
 
-    int counter;
+    public float counter = 0f;
 
     private float currentFillAmount = 0f;
 
@@ -21,6 +21,7 @@ public class BarraCombustible : MonoBehaviour
     void Start()
     {
         fillButton.onClick.AddListener(FillBar);
+        counter = counter + 1f;
     }
 
 
@@ -41,11 +42,7 @@ public class BarraCombustible : MonoBehaviour
         }
     }
 
-    public void ButtonPressed()
-    {
-        counter = counter + 1;
-
-    }
+    
 
     void ShowNextPrompt()
     {

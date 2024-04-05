@@ -6,11 +6,18 @@ using UnityEngine.SceneManagement;
 
 public class RocketMana : MonoBehaviour
 {
+    [SerializeField]
+    private float counter;
+    [SerializeField]
+    private BarraCombustible combustible;
+
     public float delayBeforeLaunch = 3f;
-    public float victoryHeight = 50f;
+    public float victoryHeight;
     private bool launched = false;
 
-    public BarraCombustible cohete1;
+    
+
+    
 
     void Start()
     {
@@ -23,7 +30,10 @@ public class RocketMana : MonoBehaviour
     
     void Update()
     {
-        
+        combustible = GetComponent<BarraCombustible>();
+        victoryHeight = combustible.counter;
+
+
         if (launched)
         {
             
