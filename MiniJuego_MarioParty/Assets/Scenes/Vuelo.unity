@@ -245,7 +245,7 @@ GameObject:
   - component: {fileID: 180500077}
   - component: {fileID: 180500076}
   m_Layer: 0
-  m_Name: Mario
+  m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -265,6 +265,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delayBeforeLaunch: 3
   victoryHeight: 50
+  cohete1: {fileID: 0}
 --- !u!54 &180500077
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -333,7 +334,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3a9d5c84f76d5714a9d8625f5ed4e286, type: 2}
+  - {fileID: 2100000, guid: 74bd143c7c751e046abbe54b37bc5021, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -466,7 +467,7 @@ Transform:
   m_GameObject: {fileID: 387490745}
   serializedVersion: 2
   m_LocalRotation: {x: 0.085532956, y: -0, z: -0, w: 0.9963354}
-  m_LocalPosition: {x: 0, y: 4.67, z: -21.3}
+  m_LocalPosition: {x: 0, y: 3.16, z: -12.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1354,7 +1355,7 @@ GameObject:
   - component: {fileID: 1420295887}
   - component: {fileID: 1420295892}
   m_Layer: 0
-  m_Name: Luigi
+  m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1487,6 +1488,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delayBeforeLaunch: 3
   victoryHeight: 50
+  cohete1: {fileID: 7215516042528853175, guid: 8e305162386bcc8469a8ddd9537df146, type: 3}
 --- !u!1 &1457695704
 GameObject:
   m_ObjectHideFlags: 0
@@ -1609,7 +1611,7 @@ GameObject:
   - component: {fileID: 1474108072}
   - component: {fileID: 1474108071}
   m_Layer: 0
-  m_Name: Daisy
+  m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1629,6 +1631,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delayBeforeLaunch: 3
   victoryHeight: 50
+  cohete1: {fileID: 0}
 --- !u!54 &1474108072
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1697,7 +1700,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ce357446a14a7904298b79c32a542f32, type: 2}
+  - {fileID: 2100000, guid: 74bd143c7c751e046abbe54b37bc5021, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1757,7 +1760,7 @@ GameObject:
   - component: {fileID: 1586160116}
   - component: {fileID: 1586160115}
   m_Layer: 0
-  m_Name: Peach
+  m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1777,6 +1780,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delayBeforeLaunch: 3
   victoryHeight: 50
+  cohete1: {fileID: 0}
 --- !u!54 &1586160116
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1845,7 +1849,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0819329ef6733274b94a7dde7351b0a7, type: 2}
+  - {fileID: 2100000, guid: 74bd143c7c751e046abbe54b37bc5021, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
