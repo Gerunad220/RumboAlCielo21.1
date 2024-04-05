@@ -2114,6 +2114,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Luigi
       objectReference: {fileID: 0}
+    - target: {fileID: 8677825135525508458, guid: b7fe697a34ef44b40bdf8d6a8e6dd62e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 74bd143c7c751e046abbe54b37bc5021, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2171,6 +2175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mario
       objectReference: {fileID: 0}
+    - target: {fileID: 7363907004641123835, guid: a73bba3d599686646ae28191065efdc4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3a9d5c84f76d5714a9d8625f5ed4e286, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2228,6 +2236,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5929003946899228657, guid: 073c667f44c74724ebb791cab22d6b2f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ce357446a14a7904298b79c32a542f32, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2241,6 +2253,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2239937997842849781, guid: a0667dd3421b68f4a8c9ec3740c9c7a3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0819329ef6733274b94a7dde7351b0a7, type: 2}
     - target: {fileID: 2739935759798534477, guid: a0667dd3421b68f4a8c9ec3740c9c7a3, type: 3}
       propertyPath: m_Name
       value: Peach
