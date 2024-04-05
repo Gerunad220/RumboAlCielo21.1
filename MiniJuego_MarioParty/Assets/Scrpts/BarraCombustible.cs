@@ -16,8 +16,11 @@ public class BarraCombustible : MonoBehaviour
     private float currentFillAmount = 0f;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 
+=======
+>>>>>>> parent of c234a58 (Cambios en el boton)
 =======
 >>>>>>> parent of c234a58 (Cambios en el boton)
 
@@ -46,8 +49,11 @@ public class BarraCombustible : MonoBehaviour
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 
+=======
+>>>>>>> parent of c234a58 (Cambios en el boton)
 =======
 >>>>>>> parent of c234a58 (Cambios en el boton)
     void ShowNextPrompt()
@@ -56,9 +62,12 @@ public class BarraCombustible : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
   
+=======
+>>>>>>> parent of c234a58 (Cambios en el boton)
 =======
 >>>>>>> parent of c234a58 (Cambios en el boton)
 }

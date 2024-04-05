@@ -175,6 +175,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.8792453, g: 0.17087215, b: 0.17087215, a: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --- !u!1 &316349286
 GameObject:
@@ -334,6 +335,8 @@ MonoBehaviour:
   m_Color: {r: 0.20678656, g: 0.9254902, b: 0.090196095, a: 1}
 =======
 >>>>>>> parent of c234a58 (Cambios en el boton)
+=======
+>>>>>>> parent of c234a58 (Cambios en el boton)
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -351,11 +354,15 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 --- !u!222 &104950999
 =======
 --- !u!222 &321192561
 
+=======
+--- !u!222 &104950999
+>>>>>>> parent of c234a58 (Cambios en el boton)
 =======
 --- !u!222 &104950999
 >>>>>>> parent of c234a58 (Cambios en el boton)
@@ -658,6 +665,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &826643943
 GameObject:
@@ -1052,6 +1060,8 @@ MeshCollider:
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 =======
 >>>>>>> parent of c234a58 (Cambios en el boton)
+=======
+>>>>>>> parent of c234a58 (Cambios en el boton)
 --- !u!1 &1116868448
 GameObject:
   m_ObjectHideFlags: 0
@@ -1187,8 +1197,11 @@ CanvasRenderer:
   m_GameObject: {fileID: 1116868448}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1288386433
 =======
+=======
+>>>>>>> parent of c234a58 (Cambios en el boton)
 --- !u!1 &1134285192
 >>>>>>> parent of c234a58 (Cambios en el boton)
 GameObject:
@@ -1397,6 +1410,7 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 --- !u!114 &1586284034 stripped
 >>>>>>> Stashed changes
@@ -1416,6 +1430,9 @@ MonoBehaviour:
 =======
 --- !u!1 &1586284032
 >>>>>>> parent of c234a58 (Cambios en el boton)
+=======
+--- !u!1 &1586284032
+>>>>>>> parent of c234a58 (Cambios en el boton)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1424,15 +1441,21 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 1689982619}
   - component: {fileID: 1689982622}
   - component: {fileID: 1689982621}
   - component: {fileID: 1689982620}
 =======
+=======
+>>>>>>> parent of c234a58 (Cambios en el boton)
   - component: {fileID: 1586284033}
   - component: {fileID: 1586284036}
   - component: {fileID: 1586284035}
   - component: {fileID: 1586284034}
+<<<<<<< HEAD
+>>>>>>> parent of c234a58 (Cambios en el boton)
+=======
 >>>>>>> parent of c234a58 (Cambios en el boton)
   m_Layer: 5
   m_Name: Boton1
@@ -1442,7 +1465,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &1689982619
+=======
+--- !u!224 &1586284033
+>>>>>>> parent of c234a58 (Cambios en el boton)
 =======
 --- !u!224 &1586284033
 >>>>>>> parent of c234a58 (Cambios en el boton)
@@ -1452,7 +1479,11 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1689982618}
+=======
+  m_GameObject: {fileID: 1586284032}
+>>>>>>> parent of c234a58 (Cambios en el boton)
 =======
   m_GameObject: {fileID: 1586284032}
 >>>>>>> parent of c234a58 (Cambios en el boton)
@@ -1461,6 +1492,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - {fileID: 1837038517}
   m_Father: {fileID: 1892023969}
@@ -1472,6 +1504,8 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1689982620
 =======
+=======
+>>>>>>> parent of c234a58 (Cambios en el boton)
   - {fileID: 1116868449}
   m_Father: {fileID: 2123373626}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1481,6 +1515,7 @@ RectTransform:
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1586284034
+<<<<<<< HEAD
 >>>>>>> parent of c234a58 (Cambios en el boton)
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1616,12 +1651,14 @@ RectTransform:
   m_SizeDelta: {x: 80, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1689982620
+=======
+>>>>>>> parent of c234a58 (Cambios en el boton)
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1689982618}
+  m_GameObject: {fileID: 1586284032}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
@@ -1671,6 +1708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
@@ -1686,6 +1724,34 @@ MonoBehaviour:
  
 =======
 >>>>>>> parent of c234a58 (Cambios en el boton)
+=======
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1586284036
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586284032}
+  m_CullTransparentMesh: 1
+>>>>>>> parent of c234a58 (Cambios en el boton)
 --- !u!1 &2026811782
 GameObject:
   m_ObjectHideFlags: 0
@@ -1695,14 +1761,20 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> parent of c234a58 (Cambios en el boton)
   - component: {fileID: 2026811783}
   - component: {fileID: 2026811785}
   - component: {fileID: 2026811784}
   m_Layer: 5
   m_Name: Barra
+<<<<<<< HEAD
+>>>>>>> parent of c234a58 (Cambios en el boton)
+=======
 >>>>>>> parent of c234a58 (Cambios en el boton)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1710,9 +1782,13 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 --- !u!224 &1837038517
 >>>>>>> Stashed changes
+=======
+--- !u!224 &2026811783
+>>>>>>> parent of c234a58 (Cambios en el boton)
 =======
 --- !u!224 &2026811783
 >>>>>>> parent of c234a58 (Cambios en el boton)
@@ -1723,8 +1799,11 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2026811782}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of c234a58 (Cambios en el boton)
 =======
 >>>>>>> parent of c234a58 (Cambios en el boton)
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1741,8 +1820,11 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2026811784
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of c234a58 (Cambios en el boton)
 =======
 >>>>>>> parent of c234a58 (Cambios en el boton)
 MonoBehaviour:
@@ -1759,8 +1841,11 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.03396219, g: 0.03248836, b: 0.03248836, a: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of c234a58 (Cambios en el boton)
 =======
 >>>>>>> parent of c234a58 (Cambios en el boton)
   m_RaycastTarget: 1
@@ -1781,8 +1866,11 @@ MonoBehaviour:
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &2026811785
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of c234a58 (Cambios en el boton)
 =======
 >>>>>>> parent of c234a58 (Cambios en el boton)
 CanvasRenderer:
@@ -1792,6 +1880,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2026811782}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 --- !u!1 &1892023965
@@ -1899,6 +1988,8 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of c234a58 (Cambios en el boton)
 =======
 >>>>>>> parent of c234a58 (Cambios en el boton)
 --- !u!1 &2074236006
@@ -2011,6 +2102,7 @@ Transform:
 GameObject:
   m_ObjectHideFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   serializedVersion: 2
   m_Modification:
@@ -2109,6 +2201,8 @@ GameObject:
 =======
 =======
 >>>>>>> parent of c234a58 (Cambios en el boton)
+=======
+>>>>>>> parent of c234a58 (Cambios en el boton)
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2119,7 +2213,10 @@ GameObject:
   - component: {fileID: 2123373624}
   - component: {fileID: 2123373623}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 2123373627}
+=======
+>>>>>>> parent of c234a58 (Cambios en el boton)
 =======
 >>>>>>> parent of c234a58 (Cambios en el boton)
   m_Layer: 5
@@ -2214,6 +2311,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &2923892174999967374
 PrefabInstance:
@@ -2461,6 +2559,8 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: a0667dd3421b68f4a8c9ec3740c9c7a3, type: 3}
 =======
 >>>>>>> parent of c234a58 (Cambios en el boton)
+=======
+>>>>>>> parent of c234a58 (Cambios en el boton)
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -2469,9 +2569,14 @@ SceneRoots:
   - {fileID: 407329765}
   - {fileID: 2074236010}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 3712080895778751964}
   - {fileID: 2123373626}
   - {fileID: 1892023969}
+=======
+  - {fileID: 1134285197}
+  - {fileID: 2123373626}
+>>>>>>> parent of c234a58 (Cambios en el boton)
 =======
   - {fileID: 1134285197}
   - {fileID: 2123373626}

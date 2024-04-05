@@ -16,9 +16,12 @@ public class RocketMana : MonoBehaviour
     private bool launched = false;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 
     
+=======
+>>>>>>> parent of c234a58 (Cambios en el boton)
 =======
 >>>>>>> parent of c234a58 (Cambios en el boton)
 
