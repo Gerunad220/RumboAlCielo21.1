@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class BarraCombustible : MonoBehaviour
 {
-
+    
     public Image fillImage;
     public float fillSpeed = 0.1f;
     public Button fillButton;
@@ -15,7 +15,7 @@ public class BarraCombustible : MonoBehaviour
 
     private float currentFillAmount = 0f;
 
-    
+     public int counter;
 
 
     void Start()
@@ -23,10 +23,10 @@ public class BarraCombustible : MonoBehaviour
         fillButton.onClick.AddListener(FillBar);
     }
 
-
+    
     void FillBar()
     {
-        if (currentFillAmount < 1f)
+        if(currentFillAmount < 1f)
         {
             currentFillAmount += fillSpeed * Time.deltaTime;
 
@@ -34,11 +34,11 @@ public class BarraCombustible : MonoBehaviour
 
             fillImage.fillAmount = currentFillAmount;
 
-            if (currentFillAmount >= 1f)
+            if(currentFillAmount >= 1f)
             {
-                ShowNextPrompt();
+                ShowNextPrompt();            
             }
-        }
+        }        
     }
 
     public void ButtonPressed()
@@ -55,6 +55,14 @@ public class BarraCombustible : MonoBehaviour
         UnityEngine.Debug.Log("Botón presionado" + counter);
     }
 
+<<<<<<< Updated upstream
+    
 
-  
+    
+=======
+    public void ButtonPressed()
+    {
+        counter++;
+    }
+>>>>>>> Stashed changes
 }
