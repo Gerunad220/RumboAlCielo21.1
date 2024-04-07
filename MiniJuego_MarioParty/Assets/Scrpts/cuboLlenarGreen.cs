@@ -12,11 +12,9 @@ public class cuboLlenarGreen : MonoBehaviour
     public float fillSpeed = 0.1f;
     public Image fillImage;
 
+    public float contar = 0f;
 
-    void Start()
-    {
-        
-    }
+   
 
     private void OnTriggerEnter(Collider other)
     {
@@ -33,11 +31,26 @@ public class cuboLlenarGreen : MonoBehaviour
                 ShowNextPrompt();
             }
         }
+
+        if (other.gameObject.tag == "cubo")
+        {
+            Debug.Log("punto");
+            contar++;
+
+        }
+
+
+
         //Destroy(gameObject);
         void ShowNextPrompt()
         {
             UnityEngine.Debug.Log("Siguiente");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
+    }
+
+    public void GetContar()
+    {
+        contar= contar;
     }
 }

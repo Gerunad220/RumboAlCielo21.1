@@ -11,10 +11,10 @@ public class cuboLlenar : MonoBehaviour
     public float fillSpeed = 0.1f;
     public Image fillImage;
 
-    void Start()
-    {
-        
-    }
+    public static float counter { get; set; }
+
+
+
 
     private void OnTriggerEnter(Collider other)
     {
@@ -28,6 +28,12 @@ public class cuboLlenar : MonoBehaviour
 
            
         }
-        
+        if (other.gameObject.tag == "cubo")
+        {
+            Debug.Log("punto");
+            
+
+        }
+
     }
 }
