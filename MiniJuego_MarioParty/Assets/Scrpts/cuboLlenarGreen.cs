@@ -12,11 +12,9 @@ public class cuboLlenarGreen : MonoBehaviour
     public float fillSpeed = 0.1f;
     public Image fillImage;
 
+    public static float contar { get; set; }
 
-    void Start()
-    {
-        
-    }
+   
 
     private void OnTriggerEnter(Collider other)
     {
@@ -33,6 +31,16 @@ public class cuboLlenarGreen : MonoBehaviour
                 ShowNextPrompt();
             }
         }
+
+        if (other.gameObject.tag == "cubo")
+        {
+            Debug.Log("punto");
+            
+
+        }
+
+
+
         //Destroy(gameObject);
         void ShowNextPrompt()
         {
