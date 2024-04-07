@@ -12,7 +12,7 @@ public class cuboLlenarGreen : MonoBehaviour
     public float fillSpeed = 0.1f;
     public Image fillImage;
 
-    public static float contar { get; set; }
+    public float contar = 0f;
 
    
 
@@ -35,7 +35,7 @@ public class cuboLlenarGreen : MonoBehaviour
         if (other.gameObject.tag == "cubo")
         {
             Debug.Log("punto");
-            
+            contar++;
 
         }
 
@@ -47,5 +47,10 @@ public class cuboLlenarGreen : MonoBehaviour
             UnityEngine.Debug.Log("Siguiente");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
+    }
+
+    public void GetContar()
+    {
+        contar= contar;
     }
 }
