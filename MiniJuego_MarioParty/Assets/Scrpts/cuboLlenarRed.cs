@@ -11,17 +11,7 @@ public class cuboLlenar : MonoBehaviour
     public float fillSpeed = 0.1f;
     public Image fillImage;
 
-    public string name;
-
-    public void Function1 (string name)
-    {
-        Debug.Log(Function2(name));
-    }
-
-    private string Function2 (string name)
-    {
-        return name;
-    }
+   
 
     void Start()
     {
