@@ -51,6 +51,6 @@ public class cuboLlenarGreen : MonoBehaviour
 
     public void GetContar()
     {
-        contar= contar;
+        float valorActual= contar;
     }
 }
