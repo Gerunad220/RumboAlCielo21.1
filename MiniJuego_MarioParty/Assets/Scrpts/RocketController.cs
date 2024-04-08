@@ -7,23 +7,26 @@ using UnityEngine.SceneManagement;
 public class RocketMana : MonoBehaviour
 {
     public float delayBeforeLaunch = 3f;
-    public float victoryHeight = 50f;
+    public float victoryHeight;
     private bool launched = false;
 
-    public BarraCombustible cohete1;
+    public cuboLlenarRed combustible;
+    public cuboLlenarGreen comb2;
+
 
     void Start()
     {
         
         Invoke("Launch", delayBeforeLaunch);
-
-        
     }
 
     
     void Update()
     {
-        
+
+       //victoryHeight = cuboLlenarGreen.GetContar();
+
+
         if (launched)
         {
             
