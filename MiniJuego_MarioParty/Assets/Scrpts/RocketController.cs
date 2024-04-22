@@ -10,7 +10,7 @@ public class RocketMana : MonoBehaviour
     public float victoryHeight;
     private bool launched = false;
 
-    public cuboLlenarRed combustible;
+    public cuboLlenarGreen combustible;
     public cuboLlenarGreen comb2;
 
 
