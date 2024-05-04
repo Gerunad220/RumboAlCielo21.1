@@ -5,13 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class FinLlenado : MonoBehaviour
 {
-    
+
     void Start()
     {
-        Invoke("LoadVuelo",3);
+        Invoke("LoadVuelo", 3);
     }
 
-    
+
     public void LoadVuelo()
     {
         SceneManager.LoadScene("Vuelo");
