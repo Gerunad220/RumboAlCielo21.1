@@ -20,7 +20,7 @@ public class MaquinaDaisy : MonoBehaviour
         rb.constraints = RigidbodyConstraints.FreezeRotation;
 
         // Salto inicial en la posición especificada
-        Jump(new Vector3(6.41f, 2.27f, -1.85f));
+        Jump(new Vector3(14.57f, 2.27f, -1.85f));
     }
 
     void Jump(Vector3 position)
@@ -49,7 +49,7 @@ public class MaquinaDaisy : MonoBehaviour
             // Si la máquina no ha realizado el movimiento lateral, realizarlo
             if (!hasMoved)
             {
-                Move(new Vector3(7.57f, 2.27f, -1.85f));
+                Move(new Vector3(15.73f, 2.27f, -1.85f));
             }
             else
             {
