@@ -697,7 +697,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpForce: 6
-  numJumps: 6
+  numJumps: 7
 --- !u!1 &227415844
 GameObject:
   m_ObjectHideFlags: 0
@@ -1391,13 +1391,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 387490745}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2549874, y: -0, z: -0, w: 0.9669444}
-  m_LocalPosition: {x: 0, y: 5, z: -9.58}
+  m_LocalRotation: {x: 0.21245994, y: -0, z: -0, w: 0.9771698}
+  m_LocalPosition: {x: 4.6, y: 8.5, z: -15.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 29.546, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 24.533, y: 0, z: 0}
 --- !u!1 &394111832
 GameObject:
   m_ObjectHideFlags: 0
@@ -1591,7 +1591,7 @@ Transform:
   m_GameObject: {fileID: 407329763}
   serializedVersion: 2
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 2.2199998, y: 3, z: 0.03999996}
+  m_LocalPosition: {x: 3.21, y: 5.36, z: -1.67}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2859,7 +2859,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpForce: 5
-  numJumps: 6
+  numJumps: 8
 --- !u!1 &792927980
 GameObject:
   m_ObjectHideFlags: 0

@@ -20,7 +20,7 @@ public class MaquinaPeach : MonoBehaviour
         rb.constraints = RigidbodyConstraints.FreezeRotation;
 
         // Salto inicial en la posición especificada
-        Jump(new Vector3(2.23f, 2.331f, -1.92f));
+        Jump(new Vector3(6.5f, 2.331f, -1.92f));
     }
 
     void Jump(Vector3 position)
@@ -49,7 +49,7 @@ public class MaquinaPeach : MonoBehaviour
             // Si la máquina no ha realizado el movimiento lateral, realizarlo
             if (!hasMoved)
             {
-                Move(new Vector3(3.34f, 2.331f, -1.92f));
+                Move(new Vector3(7.6f, 2.331f, -1.92f));
             }
             else
             {
