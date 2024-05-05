@@ -20,7 +20,7 @@ public class MaquinaLuigi : MonoBehaviour
         rb.constraints = RigidbodyConstraints.FreezeRotation;
 
         // Salto inicial en la posición especificada
-        Jump(new Vector3(-2.28f, 2.46f, -1.97f));
+        Jump(new Vector3(-0.12f, 2.46f, -1.97f));
     }
 
     void Jump(Vector3 position)
@@ -49,7 +49,7 @@ public class MaquinaLuigi : MonoBehaviour
             // Si la máquina no ha realizado el movimiento lateral, realizarlo
             if (!hasMoved)
             {
-                Move(new Vector3(-1.2f, 2.46f, -1.97f));
+                Move(new Vector3(0.9f, 2.46f, -1.97f));
             }
             else
             {
@@ -66,7 +66,7 @@ public class MaquinaLuigi : MonoBehaviour
         hasMoved = true;
 
         // Si la máquina está en la segunda posición, detener el movimiento lateral y realizar los saltos
-        if (position == new Vector3(-1.2f, 2.46f, -1.97f))
+        if (position == new Vector3(-0.12f, 2.46f, -1.97f))
         {
             
             numJumps = 5; // Restablecer el número de saltos
