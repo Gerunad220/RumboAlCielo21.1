@@ -279,8 +279,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b2c67a377a86224a8500e02bd784ae4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayBeforeLaunch: 3
-  victoryHeight: 50
+  delayBeforeLaunch: 0
+  victoryHeight: 100
   combustible: {fileID: 0}
   comb2: {fileID: 0}
 --- !u!54 &180500077
@@ -1328,7 +1328,7 @@ Transform:
   m_GameObject: {fileID: 1420295886}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.87, y: 4.57, z: 0}
+  m_LocalPosition: {x: -1.87, y: 4.54, z: 0}
   m_LocalScale: {x: 4, y: 6, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1347,8 +1347,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b2c67a377a86224a8500e02bd784ae4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayBeforeLaunch: 5
-  victoryHeight: 50
+  delayBeforeLaunch: 1
+  victoryHeight: 150
   combustible: {fileID: 0}
   comb2: {fileID: 0}
 --- !u!4 &1434157759 stripped
@@ -1511,8 +1511,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b2c67a377a86224a8500e02bd784ae4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayBeforeLaunch: 3
-  victoryHeight: 50
+  delayBeforeLaunch: 1
+  victoryHeight: 150
   combustible: {fileID: 0}
   comb2: {fileID: 0}
 --- !u!54 &1474108072
@@ -1622,7 +1622,7 @@ Transform:
   m_GameObject: {fileID: 1474108070}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.44, y: 4.51, z: 0}
+  m_LocalPosition: {x: 13.44, y: 4.54, z: 0}
   m_LocalScale: {x: 4, y: 6, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1769,8 +1769,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b2c67a377a86224a8500e02bd784ae4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayBeforeLaunch: 3
-  victoryHeight: 50
+  delayBeforeLaunch: 1
+  victoryHeight: 150
   combustible: {fileID: 0}
   comb2: {fileID: 0}
 --- !u!54 &1586160116

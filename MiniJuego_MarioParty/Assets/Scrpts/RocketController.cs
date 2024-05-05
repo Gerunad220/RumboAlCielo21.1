@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class RocketMana : MonoBehaviour
 {
-    public float delayBeforeLaunch = 3f;
+    public float delayBeforeLaunch = 1f;
     public float victoryHeight;
     private bool launched = false;
 
@@ -23,10 +23,7 @@ public class RocketMana : MonoBehaviour
     
     void Update()
     {
-
-       //victoryHeight = cuboLlenarGreen.GetContar();
-
-
+              
         if (launched)
         {
             
