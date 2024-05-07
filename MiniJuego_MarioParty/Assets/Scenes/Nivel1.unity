@@ -771,7 +771,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpForce: 6
-  numJumps: 7
 --- !u!1 &227415844
 GameObject:
   m_ObjectHideFlags: 0
@@ -3048,8 +3047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93f4438bfac34244b2d8f2ec6c2861c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 5
-  numJumps: 8
+  jumpForce: 6
 --- !u!1 &792927980
 GameObject:
   m_ObjectHideFlags: 0
@@ -4873,8 +4871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad5689a7aa0ab6a4b8f204da08b30d81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 8
-  numJumps: 6
+  jumpForce: 6
 --- !u!136 &1314072667
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8176,7 +8173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1913805273324860704, guid: 073c667f44c74724ebb791cab22d6b2f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.18
+      value: 1.24
       objectReference: {fileID: 0}
     - target: {fileID: 1913805273324860704, guid: 073c667f44c74724ebb791cab22d6b2f, type: 3}
       propertyPath: m_LocalPosition.z
