@@ -5,10 +5,11 @@ using UnityEngine;
 public class MaquinaLuigi : MonoBehaviour
 {
     public float jumpForce = 3f; // Fuerza del salto de la máquina
-    public int numJumps = 6; // Número de saltos que la máquina debe realizar en las posiciones específicas
     private Rigidbody rb; // Referencia al componente Rigidbody de la máquina
     private bool hasMoved = false; // Indica si la máquina ha realizado el movimiento lateral
     private float jumpDelay = 2.5f; // Retraso entre saltos
+    private int totalJumps; // Número total de saltos que la máquina debe realizar
+    private int jumpsRemaining; // Número de saltos restantes
 
     void Start()
     {
@@ -19,7 +20,9 @@ public class MaquinaLuigi : MonoBehaviour
         rb.useGravity = true;
         rb.constraints = RigidbodyConstraints.FreezeRotation;
 
-        // Salto inicial en la posición especificada
+        // Establecer el número total de saltos y realizar el primer salto
+        totalJumps = 6;
+        jumpsRemaining = totalJumps;
         Jump(new Vector3(-0.12f, 2.46f, -1.97f));
     }
 
@@ -39,10 +42,10 @@ public class MaquinaLuigi : MonoBehaviour
         // La máquina salta en el sitio
         rb.velocity = Vector3.zero; // Detener cualquier movimiento existente
         rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-        numJumps--; // Reducir el número de saltos restantes
+        jumpsRemaining--; // Reducir el número de saltos restantes
 
         // Si se han realizado todos los saltos requeridos, detener el salto
-        if (numJumps <= 0)
+        if (jumpsRemaining <= 0)
         {
             CancelInvoke("JumpInPlace");
 
@@ -65,12 +68,11 @@ public class MaquinaLuigi : MonoBehaviour
         transform.position = position;
         hasMoved = true;
 
-        // Si la máquina está en la segunda posición, detener el movimiento lateral y realizar los saltos
-        if (position == new Vector3(-0.12f, 2.46f, -1.97f))
+        // Si la máquina está en la segunda posición, iniciar el ciclo de saltos
+        if (position == new Vector3(0.9f, 2.46f, -1.97f))
         {
-            
-            numJumps = 5; // Restablecer el número de saltos
-            InvokeRepeating("JumpInPlace", 0f, jumpDelay);
+            jumpsRemaining = totalJumps;
+            InvokeRepeating("JumpInPlace", jumpDelay, jumpDelay);
         }
     }
 
