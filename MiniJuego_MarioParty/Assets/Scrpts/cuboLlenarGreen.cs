@@ -14,7 +14,7 @@ public class cuboLlenarGreen : MonoBehaviour
 
     public float contar = 0f;
 
-   
+       
 
     private void OnTriggerEnter(Collider other)
     {
