@@ -8681,6 +8681,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mario
       objectReference: {fileID: 0}
+    - target: {fileID: 4922934791480687797, guid: a73bba3d599686646ae28191065efdc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7363907004641123835, guid: a73bba3d599686646ae28191065efdc4, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
