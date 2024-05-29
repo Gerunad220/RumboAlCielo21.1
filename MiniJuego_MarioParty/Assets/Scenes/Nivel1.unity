@@ -8748,6 +8748,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MarioHandR
       objectReference: {fileID: 0}
+    - target: {fileID: 7254930462465425291, guid: e1f464bd8abfe7147825de4aed0f407b, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1843008657467325763, guid: e1f464bd8abfe7147825de4aed0f407b, type: 3}
     m_RemovedGameObjects: []
